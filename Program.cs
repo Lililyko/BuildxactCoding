@@ -37,6 +37,21 @@ namespace SuppliesPriceLister
             foreach (var supply in megaSupply){
                 Console.WriteLine($"{supply.ID}, {supply.Name}, {supply.Price}");
             }
+
+            //get supplier from humphries.csv
+            string[] humpStringLine = File.ReadAllLines("humphries.csv");
+            List<Supply> humpSupply = new List<Supply>();
+            for (int i=1; i<humpStringLine.Length; i++){
+                string[] supplyDetails = humpStringLine[i].Split(',');
+                string id = supplyDetails[0];
+                string name = supplyDetails[1];
+                string price = supplyDetails[3];
+                humpSupply.Add(new Supply { ID=id, Name=name, Price=price });
+            }
+            foreach (var supply in humpSupply){
+                Console.WriteLine($"{supply.ID}, {supply.Name}, {supply.Price}");
+            }
+
         }
     }
 }
