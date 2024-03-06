@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SQeCtQm39M1FuaPXmntwVNE2EOQYR+FMgcSxQjROvCFuRtUAVLY/+Lm+Ip3YOjZoYPzNgAosSOBZx6npDqupuA==",
+  "dgSpecHash": "CDZx8rjtHK8vo+kLNEzZoBj/tDOcF8I74xzPMr2hZHUPvrWZEMbVIYxiaJr+EC+yAw4AwSm5PK8g2h5Pu4MoeQ==",
   "success": true,
   "projectFilePath": "/Users/wangyaxin/Documents/Job/interviews/Buildxact/CodingTest/SuppliesPriceLister.csproj",
   "expectedPackageFiles": [
-    "/Users/wangyaxin/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/Users/wangyaxin/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/wangyaxin/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "/Users/wangyaxin/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.27/microsoft.netcore.app.host.osx-x64.6.0.27.nupkg.sha512"
+    "/Users/wangyaxin/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.27/microsoft.netcore.app.host.osx-x64.6.0.27.nupkg.sha512",
+    "/Users/wangyaxin/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }
